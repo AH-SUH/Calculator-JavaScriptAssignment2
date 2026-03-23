@@ -3,7 +3,7 @@ const buttonsContainer = document.getElementById("buttons-container");
 
 let currentInput = "";
 
-// Button layout to match the assignment image
+// Buttons
 const buttons = [
   { text: "*", class: "operator" },
   { text: "/", class: "operator" },
@@ -28,7 +28,7 @@ const buttons = [
   { text: "C", class: "clear" },
 ];
 
-// forEach loop requirement
+// forEach loop
 buttons.forEach(function (buttonData) {
   const button = document.createElement("button");
   button.textContent = buttonData.text;
